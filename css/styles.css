@@ -39,6 +39,7 @@ ul {
   text-decoration: none;
 }
 .container {
+  border: solid 1px tomato;
   width: 1200px;
   padding-left: 15;
   padding-right: 15;
