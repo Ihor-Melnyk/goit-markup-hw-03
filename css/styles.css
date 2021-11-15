@@ -50,7 +50,7 @@ ul {
 /* --------------------HEADER------------------------- */
 .header {
   background-color: var(--fourth-tittle-color);
-  border: 1px solid var(--border-header);
+  border-bottom: 1px solid var(--border-header);
 }
 .header-main {
   display: flex;
@@ -138,6 +138,7 @@ ul {
 }
 /* --------------------HERO---------------------------------- */
 .hero {
+  padding: 200px 0;
   background: var(--background-title-color);
   text-align: center;
 }
@@ -145,7 +146,6 @@ ul {
   width: 696px;
   margin-top: 0;
   margin-bottom: 30px;
-  padding-top: 200px;
   margin-left: auto;
   margin-right: auto;
   font-weight: 900;
@@ -159,7 +159,6 @@ ul {
 .hero-btn {
   border-radius: 4px;
   padding: 10px 32px;
-  margin-bottom: 200px;
   display: inline-block;
   cursor: progress;
   font-family: inherit;
@@ -245,6 +244,7 @@ ul {
 }
 .command-title {
   margin-top: 0;
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.67;
@@ -257,7 +257,11 @@ ul {
   max-width: 100%;
   height: auto;
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 0;
+}
+.command-item-box {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .command-item-title {
   margin-top: 0;
@@ -271,7 +275,6 @@ ul {
 }
 .command-item-text {
   margin-top: 0;
-  margin-bottom: 30px;
   font-size: 16px;
   line-height: 1.187;
   text-align: center;
@@ -280,7 +283,7 @@ ul {
 }
 /* --------------------FOOTER----------------------------------- */
 .footer {
-  padding: 60px;
+  padding: 60px 0;
   background: var(--background-title-color);
 }
 .footer-logo-main {
@@ -341,7 +344,7 @@ ul {
   display: flex;
   justify-content: center;
   margin-top: 0;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 .portfolio-filtr-item:not(:last-child) {
   margin-right: 8px;
@@ -367,7 +370,9 @@ ul {
   display: block;
   max-width: 100%;
   height: auto;
-  margin-bottom: 20px;
+}
+.works-item-cont {
+  padding: 20px 24px;
 }
 .works-item {
   background: var(--footer-text-color);
@@ -389,7 +394,7 @@ ul {
   margin-top: 30px;
 }
 .works-title {
-  margin: 0px 24px 4px;
+  margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -397,7 +402,6 @@ ul {
   color: var(--second-title-color);
 }
 .works-item-text {
-  margin: 0px 24px 20px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
