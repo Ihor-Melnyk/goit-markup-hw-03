@@ -209,6 +209,9 @@ ul {
   color: var(--main-text-color);
 }
 /* --------------------ЧЕМ МЫ ЗАНИМАЕМСЯ------------------------- */
+.doing.section {
+  padding-top: 0;
+}
 .doing-title {
   margin-top: 0;
   margin-bottom: 50px;
